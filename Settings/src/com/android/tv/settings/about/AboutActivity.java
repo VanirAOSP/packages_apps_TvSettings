@@ -118,7 +118,7 @@ public class AboutActivity extends SettingsLayoutActivity {
      * Get the CyanogenMod version.
      */
     public static String getDisplayVersion() {
-        return SystemProperties.get("ro.cm.display.version");
+        return SystemProperties.get("ro.modversion");
     }
 
     /**
