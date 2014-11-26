@@ -100,11 +100,11 @@ public class AboutActivity extends DialogActivity implements ActionAdapter.Liste
     private static final String SETTINGS_DEVICE_NAME_INTENT_ACTION = "android.settings.DEVICE_NAME";
 
     /**
-     * Intent action of CyanogenMod updater activity.
+     * Intent action of Vanir updater activity.
      */
     private static final ComponentName mCmupdaterActivity =
-            new ComponentName("com.cyanogenmod.updater",
-                    "com.cyanogenmod.updater.UpdatesSettingsTv");
+            new ComponentName("com.vanir.updater",
+                    "com.vanir.updater.UpdatesSettingsTv");
     private static final String SETTINGS_CM_UPDATER_ACTION = "android.intent.action.MAIN";
 
     /**
