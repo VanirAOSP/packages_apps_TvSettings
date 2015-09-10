@@ -43,9 +43,7 @@
         android:icon="@drawable/ic_settings_home"
         android:key="home"
         android:title="@string/system_home" >
-        <intent
-            android:targetClass="com.android.tv.settings.system.HomeActivity"
-            android:targetPackage="com.android.tv.settings" />
+        <intent android:action="com.google.android.leanbacklauncher.SETTINGS" />
     </Preference>
     <Preference
         android:icon="@drawable/ic_settings_display"
